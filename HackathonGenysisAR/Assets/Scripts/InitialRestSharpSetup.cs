@@ -9,7 +9,7 @@ public class InitialRestSharpSetup :MonoBehaviour
     }
 
     /// <summary>
-    /// Initial setup tokin for RestSharp Client
+    /// Initial setup tokin for RestSharp Client 
     /// </summary>
     void SetupTokin()
     {
