@@ -12,6 +12,8 @@ public class ARManager : MonoBehaviour
     public string[] PreAnswers;
     public string[] ActualAnswers;
     public string AnswerOutput;
+    public TextToSpeech TextToSpeechManager;
+
     private int IndexCount=-1;
 
     // Start is called before the first frame update
@@ -36,7 +38,7 @@ public class ARManager : MonoBehaviour
             PreVideoPlayList[IndexCount].SetActive(true);
             AnswerShared.SharedAnsw = ActualAnswers[IndexCount];
         }
-        ///TODO Make Speech To Text Call Here
+        TextToSpeechManager.AudioPlayClick(AnswerShared.SharedAnsw);
         UICanvasDisplay.text = AnswerShared.SharedAnsw;
     }
 

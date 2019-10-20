@@ -20,7 +20,7 @@ public class SpeechRecognitionAzure : MonoBehaviour
     private string message;
     private string OldText;
     private bool micPermissionGranted = false;
-
+    private string defaultMessage = "Please press speak button to enter your question";
 #if PLATFORM_ANDROID || PLATFORM_IOS
     // Required to manifest microphone permission, cf.
     // https://docs.unity3d.com/Manual/android-manifest.html
@@ -115,7 +115,7 @@ public class SpeechRecognitionAzure : MonoBehaviour
         if (!micPermissionGranted && Permission.HasUserAuthorizedPermission(Permission.Microphone))
         {
             micPermissionGranted = true;
-            message = "Say your question";
+            message = defaultMessage;
         }
 #elif PLATFORM_IOS
         if (!micPermissionGranted && Application.HasUserAuthorization(UserAuthorization.Microphone))
@@ -131,7 +131,7 @@ public class SpeechRecognitionAzure : MonoBehaviour
             {
                 startRecoButton.interactable = !waitingForReco && micPermissionGranted;
             }
-            if (outputText != null && !message.Equals(OldText))
+            if (outputText != null && !message.Equals(OldText) &&!message.Equals(defaultMessage))
             {
                 SearchManagerController.SearchAudioText(message.ToString()); //Search the answer
                 outputText.text = message;

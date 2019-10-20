@@ -16,10 +16,11 @@ public class TextToSpeech : MonoBehaviour
 
     private SpeechConfig speechConfig;
     private SpeechSynthesizer synthesizer;
+    private string OldText;
 
-    public void ButtonClick()
+    public void AudioPlayClick(string textTranslate)
     {
-        textToSay = "say something I'm giving up on yooou";
+        textToSay = textTranslate;
         lock (threadLocker)
         {
             waitingForSpeak = true;
@@ -79,7 +80,7 @@ public class TextToSpeech : MonoBehaviour
         else
         {
             message = "";
-            speakButton.onClick.AddListener(ButtonClick);
+          //  speakButton.onClick.AddListener(AudioPlayClick);
 
             // Creates an instance of a speech config with specified subscription key and service region.
             // Replace with your own subscription key and service region (e.g., "westus").
@@ -105,9 +106,9 @@ public class TextToSpeech : MonoBehaviour
                 speakButton.interactable = !waitingForSpeak;
             }
 
-            if (outputText != null)
+            if (outputText != null && !message.Equals(OldText))
             {
-                outputText.text = message;
+                OldText = outputText.text = message;
             }
         }
     }
