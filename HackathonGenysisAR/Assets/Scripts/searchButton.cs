@@ -24,6 +24,10 @@ public class SearchButton : MonoBehaviour
         Debug.Log(messageToUser);
         AnswerShared.SharedAnsw = ButtonTestDisplay.text = messageToUser;
     }
+    public void CreateNewToken()
+    {
+        RestSharpManager.GettingKeyToken();
+    }
     private string SearchQuestion(string questionAsk)
     {
         var messageToUser = DefaultErrorAnswer;

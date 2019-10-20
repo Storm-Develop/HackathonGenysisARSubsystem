@@ -21,6 +21,7 @@ public class SpeechRecognitionAzure : MonoBehaviour
     private string OldText;
     private bool micPermissionGranted = false;
     private string defaultMessage = "Please press speak button to enter your question";
+    public GameObject BusyLoad;
 #if PLATFORM_ANDROID || PLATFORM_IOS
     // Required to manifest microphone permission, cf.
     // https://docs.unity3d.com/Manual/android-manifest.html
@@ -29,6 +30,8 @@ public class SpeechRecognitionAzure : MonoBehaviour
 
     public async void ButtonClick()
     {
+        BusyLoad.SetActive(true);
+
         // Creates an instance of a speech config with specified subscription key and service region.
         // Replace with your own subscription key and service region (e.g., "westus").
         var config = SpeechConfig.FromSubscription("4875ddc2c6364441b73f43b18311b239", "westus");
@@ -75,6 +78,7 @@ public class SpeechRecognitionAzure : MonoBehaviour
 
     void Start()
     {
+        BusyLoad.SetActive(false);
         if (outputText == null)
         {
             OldText = outputText.text;
@@ -136,6 +140,7 @@ public class SpeechRecognitionAzure : MonoBehaviour
                 SearchManagerController.SearchAudioText(message.ToString()); //Search the answer
                 outputText.text = message;
                 OldText = outputText.text;
+                BusyLoad.SetActive(false);
                 ///TODO Stop Gif Busy Load
             }
         }
