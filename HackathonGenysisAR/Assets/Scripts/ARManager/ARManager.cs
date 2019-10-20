@@ -7,9 +7,8 @@ public class ARManager : MonoBehaviour
 {
     public GameObject[] PreVideoPlayList;
     public string[] PreAnswers;
-    public string SharedAnswer;
 
-    private int IndexCount;
+    private int IndexCount=-1;
 
     // Start is called before the first frame update
     void Start()
@@ -22,12 +21,20 @@ public class ARManager : MonoBehaviour
         DisableAllVideos();
         for (int i=0; i< PreAnswers.Length;i++)
         {
-            if(PreAnswers[i].Contains(SharedAnswer))
+            if(AnswerShared.SharedAnsw.Contains(PreAnswers[i]))
             {
                 IndexCount = i;
             }
         }
-        PreVideoPlayList[i].SetActive(true);
+
+        if(IndexCount>=0)
+        {
+            PreVideoPlayList[IndexCount].SetActive(true);
+        }
+        else
+        {
+            /////TODO DISPLAY TEXT
+        }
     }
 
     private void DisableAllVideos()

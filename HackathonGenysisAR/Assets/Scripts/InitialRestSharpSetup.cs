@@ -10,7 +10,7 @@ using RequestMessage;
 
 public class InitialRestSharpSetup :MonoBehaviour
 {
-    private string _token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdJZCI6IjhiYjA0OTFjLTY5ZTAtNDY4My1iZTExLTcxN2Y4OTlhYzY0NyIsImV4cCI6MTU3MTU0ODM3OCwiaWF0IjoxNTcxNTQ0Nzc4fQ.HjhsbqyhWqAtpdkszXVaTaTMf8HuOr1giaFRVzCRSS0";
+    private string _token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdJZCI6IjhiYjA0OTFjLTY5ZTAtNDY4My1iZTExLTcxN2Y4OTlhYzY0NyIsImV4cCI6MTU3MTU1OTIyMCwiaWF0IjoxNTcxNTU1NjIwfQ.WzW1YaDp-C5tAOeUrmnw76ikpjpx2aicgn6Zh6Kyo5E";
     private string _secretkey = "1438b2d3-e652-41ee-9010-564e16ae645c";
     private string _organizationid = "8bb0491c-69e0-4683-be11-717f899ac647";
 
