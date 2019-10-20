@@ -4,5 +4,5 @@ using UnityEngine;
 
 public static class AnswerShared 
 {
-    public static string SharedAnsw = "";
+    public static string SharedAnsw = "Please ask question and come back later";
 }

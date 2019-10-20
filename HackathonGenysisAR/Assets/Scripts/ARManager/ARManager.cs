@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ARManager : MonoBehaviour
 {
@@ -45,5 +46,9 @@ public class ARManager : MonoBehaviour
         {
             PreVideoPlayList[i].SetActive(false);
         }
+    }
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainScene");
     }
 }
