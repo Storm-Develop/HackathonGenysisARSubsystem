@@ -7,10 +7,10 @@ using UnityEngine.UI;
 
 public class SearchButton : MonoBehaviour
 {
-    public GameObject ARscene;
     public InputField SearchTextInputFeld;
     public InitialRestSharpSetup RestSharpManager;
     public TextMeshProUGUI ButtonTestDisplay;
+    public string DefaultErrorAnswer= "We are sorry, we currently do not have an answer to your question. Please try again at a later time.";
     public void SearchText()
     {
         var questionAsk = SearchTextInputFeld.text.ToString();
@@ -21,7 +21,7 @@ public class SearchButton : MonoBehaviour
 
     private string SearchQuestion(string questionAsk)
     {
-        var messageToUser = "Error Occured";
+        var messageToUser = DefaultErrorAnswer;
         var resultAnswer = RestSharpManager.SearchFAQAnswer(questionAsk);
         if (resultAnswer != null && resultAnswer.Results.Length > 1)
         {
