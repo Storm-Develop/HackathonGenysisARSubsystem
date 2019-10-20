@@ -1,0 +1,571 @@
+{
+"type": "faq",
+"faq": {
+"question": "Has the Heineken bottle always looked the same",
+
+"answer": "Although the key elements of the bottle have been in the design for over a century, their details have been refined over the years. Functional improvements, the subtle evolution of the brand and a desire to keep the bottle fresh and up to date are reasons to adjust the design from time to time. Usually, these are very small evolutionary steps to ensure the brand never loses its authenticity and timeless, classic character"
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Why is the Heineken bottle green",
+
+"answer": "Heineken was one of the very first brewers to export bottled beer. The quality was so good that while it was more expensive than local beers, people preferred the premium, imported product. To ensure consumers immediately saw the difference between the regular domestic beers and the premium quality Heineken, the bottle was made green instead of the usual brown. Green was chosen because it radiates freshness, naturalness, purity and premium quality – just like the delicious, cold Heineken beer inside"
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What makes the Heineken bottle special?",
+
+"answer": "The Heineken bottle is the most iconic beer bottle in the world. The combination of the green colour, the proud shoulders and the racetrack-shaped label with the black bar, plus the characteristic Heineken word mark and red star, make it the most recognised bottle in the world"
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Is the Heineken bottle the same worldwide",
+
+"answer": "In principle, yes. The basic structure is always the same but details may differ depending on the culture. For example, in certain countries consumers prefer larger sized bottles, and in some countries returnable bottles are preferred."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How many bottles of Heineken beer are enjoyed worldwide every day?",
+
+"answer": "Every day, over 1 million bottles of Heineken are enjoyed in over 170 countries. And that’s just bottles – Heineken also produces cans and draught beer."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the BeerTender?",
+
+"answer": "The BeerTender – with a five-litre keg chilling inside – has been designed for you to serve your friends fresh, draught Heineken at home with one easy motion."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Can I cool my BeerTender keg in the freezer?",
+
+"answer": "Cooling your BeerTender keg in the freezer may cause the keg to burst. Freezing the beer will also quickly reduce its quality, resulting in cloudy beer."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How long can I keep my keg once it’s in the BeerTender?",
+
+"answer": "Once in the BeerTender, your keg will stay fresh for 30 days. If you take the keg out of the BeerTender, you can store it in your fridge for up to one week. You can store an unused keg for up to six months."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Can I switch kegs from the BeerTender? ",
+
+"answer": "Yes. If you want to take the keg out of your BeerTender, you can store it in your fridge for up to one week and put it back in the BeerTender when you’re ready to enjoy it."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How many beers can I tap from a BeerTender keg?",
+
+"answer": "If you tap a good head and don’t waste too much beer, you can tap between 18 to 20 glasses from the BeerTender keg."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+    {
+    "type": "faq",
+    "faq": {
+"question": "How is Extra Cold served? ",
+
+"answer": "As smooth draught from the frozen column, tapped into a frozen glass.  Or from an ice-cold bottle or can straight from the Sub Zero fridge – cooled twice as fast and kept just above its freezing point."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the optimum temperature to enjoy Extra Cold?",
+
+"answer": "Extra Cold beer should be served between -3 C and 1 C."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Does Extra Cold taste different to other Heineken beer?",
+
+"answer": "Yes, it’s slightly lighter than regular Heineken, and served extra cold making it smoother, less bitter and easier to drink, with the same delicious Heineken taste."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Can every beer brand be cooled down to extra cold temperatures?",
+
+"answer": "No, some beers are not high quality enough to withstand such cold temperatures and they will taste more like water. Premium Heineken beer retains its top quality, excellent taste so you can enjoy it extra cold."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Why order Extra Cold? ",
+
+"answer": "Extra Cold is chilled to zero for instant refreshment that lasts right through to the very last sip – so you can start fresh with every sip. It’s no ordinary beer, so it’s perfect for special occasions, and any time you need something refreshingly different."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What makes Extra Cold the choice for me?",
+
+"answer": "Some people find the taste of beer too bitter. Extra Cold is chilled to zero for a smoother lager that’s easier to drink – perfect for cooling you down quickly and quenching your thirst when the heat is on."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What does Heineken 0.0% taste like? ",
+
+"answer": "Heineken 0.0% has a perfectly balanced taste with refreshing fruity notes and soft malty body. Heineken 0.0% is double brewed while alcohol is removed and blended with natural flavours."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How does Heineken 0.0% taste different to the original Heineken beer?",
+
+"answer": "Heineken 0.0% tastes different to regular Heineken. It has the same characteristic fruity notes, but with a soft malty body.In Heineken 0.0 we use the same quality ingredients in regular Heineken (Water, malted barley, hop and A-yeast) complemented with a natural flavor."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Is Heineken 0.0% suitable for consumers under the legal drinking age? ",
+
+"answer": "Although the product does not contain alcohol, our products are aimed at those above legal drinking age"
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the RRP of Heineken 0.0%?",
+
+"answer": "This will be different in different markets, depending on the price of Heineken and the alcohol-free beer category."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How many calories are in a 33cl of Heineken 0.0% beer?",
+
+"answer": "Heineken 0.0 has only 21 cal/100ml so a 33cl bottle has 69 calories."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Is there any alcohol in Heineken 0.0 and can I drink it safely (being pregnant, before driving, while taking medicine)",
+
+"answer": "Heineken 0.0 contains less than 0.03% alcohol so as such it is a non-alcohol beer. This amount has no impact on the body and is fully fine in view of driving and pregnancy or alc-intolerant medical treatment."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the Heineken DraughtKeg?",
+
+"answer": "The Heineken Draughtkeg is a five-litre keg full of premium Heineken beer. It has an integrated carbon dioxide cartridge that allows you to enjoy fresh, draught beer whenever and wherever you choose.&nbsp; This means you can now enjoy genuine draught beer at home, at parties, barbecues, birthdays, at the beach, on boat trips &ndash; anywhere you like. The DraughtKeg is an easy-to-carry, instant draught beer system that&rsquo;s also really easy to use, and the empty keg can be easily disposed of after use."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is an integrated carbon dioxide cartridge?",
+
+"answer": "An integrated carbon dioxide cartridge is an internal pressure system, which makes it possible to produce real draught beer because the beer is drawn from the keg under pressure."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How does integrated carbon dioxide cartridge work, exactly?",
+
+"answer": "The pressure system – which includes a small tube with active carbon dioxide – keeps the beer under constant pressure. This relatively small cylinder contains more than enough carbon dioxide to completely empty the keg. It’s also equipped with a control valve that maintains the pressure in the DraughtKeg at approximately 1.0 bar. With consistently good pressure, the beer can be drawn via the beer line attached inside the DraughtKeg. All you have to do is tap and pour cold, fresh, quality Heineken to share with your friends. "
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Is the DraughtKeg easy to use?",
+
+"answer": "The DraughtKeg is extremely easy to use. Look for the symbols on the keg that explain how it works, and you’re just a few easy steps away from being able to pour and enjoy your own draught beer. For more detailed instructions, check the booklet in the blisterpack on top of your DraughtKeg. "
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How long will a DraughtKeg stay fresh for?",
+
+"answer": "You can store your DraughtKeg for up to nine months unopened. Even after you’ve tapped it for the first time, the Heineken beer inside your DraughtKeg will stay fresh for up to 30 days."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How many glasses of beer can I enjoy from one DraughtKeg?",
+
+"answer": "This really depends on you and the size of the glasses you are using. On average, a DraughtKeg will give you 20 draught beers when you&rsquo;re using 25 centilitre glasses."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Can I take DraughtKeg packaging on an aeroplane?",
+
+"answer": "In principle, yes. We do, however, recommend that you check the DraughtKeg as luggage rather than taking it on board as carry-on luggage"
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the maximum temperature that the DraughtKeg can be exposed to? ",
+
+"answer": "A maximum of 35 degrees Celsius.  If it is exposed to temperatures higher than 35°C, the keg will first begin to swell. If it becomes even warmer, the keg rim around the lid will become loose, which will cause beer or foam to leak from the DraughtKeg. However, the keg cannot explode and does not pose any serious hazards."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Is DraughtKeg packaging an environmentally friendly product?",
+
+"answer": "Yes, the packaging is 100% recyclable. It is also extremely efficient considering that one single keg holds five litres of beer. For easy disposal, the empty packaging with the tap pipe can also be thrown out with the household garbage."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Is the carbon dioxide cartridge completely safe?",
+
+"answer": "Like all Heineken packaging, the DraughtKeg and its parts meet the most stringent food safety requirements."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "When I try to draw a draught beer from my DraughtKeg, why do I get foam?",
+
+"answer": "This is usually because your DraughtKeg is not cold enough. It must be placed in the refrigerator for at least 10 hours to ensure the temperature of the beer in the keg is around 5°C. Even though the keg usually feels cold to the touch when it’s refrigerated, this is because the metal exterior becomes cold much more quickly – it doesn't always mean that the beer is actually cold enough. For the perfect pour, make sure you open the tap pipe quickly and completely when drawing beer. "
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Why are the first couple of glasses just foam",
+
+"answer": "The first glass can contain more foam because the line in the keg that carries the beer to the top of the keg is filled with carbon dioxide before you tap it. If the beer is cold enough, your second glass should be perfect. If your keg was shaken too much when it was being juggled into position, or while it was on its way to you, let it settle for a while in the fridge to keep it cold. "
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "After I draw a beer, why does the beer just keeps flowing in my DraughtKeg. ",
+
+"answer": "We apologise for this, but it does happen occasionally. The best thing to do is remove the tap pipe from the keg and put it on again to draw a new beer."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the best way to store my Heineken beer?",
+
+"answer": "The best way to store your Heineken beer is in a cool, dry place out of direct light and heat. Of course, if you’re ready to enjoy it straight away, chill it in the fridge until it’s cooled to around 5 C."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How long can I store a Heineken beer before drinking?",
+
+"answer": "Beer is a natural product so it has a limited storage life. Our beer will stay fresh for around six months, so check the best before date on your Heineken beer to make sure you’re enjoying fresh, quality beer."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How many countries is Heineken enjoyed in worldwide? ",
+
+"answer": "Heineken is one of the world’s great brewers. The brand that bears the founder’s family name – Heineken – is available in almost every country on the globe and is the world’s most valuable international premium beer brand. With our global network of distributors, and 125 breweries in more than 70 countries, we have the largest presence of all international brewers. In Europe, we are the largest brewer and cider producer.<"
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Where can I buy Heineken merchandise?",
+
+"answer": "Visit the Heineken Experience shop and Heineken The City in Amsterdam for all your exclusive Heineken merchandise. Heineken merchandise is not yet available online."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What are the main ingredients in Heineken beer?",
+
+"answer": "Heineken contains water, barley, malt and hops."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the nutritional value of Heineken?",
+
+"answer": "Nutritional values per 100 ML are Energy 42 KCAL, Carbohydrates 3.2 G, Salt less than 0.01 G   "
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the alcohol volume in Heineken beer?",
+
+"answer": "The alcohol volume of Heineken pilsner is 5%."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Does Heineken contain gluten? ",
+
+"answer": "Beer contains gluten, which comes from the grain used to brew it. Only a fraction of the gluten in the grain gets into the beer – the exact amount depends on the kind of grain used. Brewing beer with barley leaves only traces of gluten in the beer, while wheat contributes considerably more. The brewing process can also affect gluten content. Generally speaking, the clearer and blonder the beer is, the less gluten it contains. Some people are allergic to gluten and have to follow a diet that minimises or excludes their gluten intake. Whether beer can be part of such a diet or not depends on the extent of the allergy and the type of beer consumed. In many cases, lager beers pose no problem for people who have a gluten allergy. However, it is up to individuals to assess their own sensitivity."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Does Heineken beer contain any GMO?",
+
+"answer": "No. Heineken has a policy of not using any GMO raw materials."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Does Heineken use any additives in its beer brewing process?",
+
+"answer": "No. Heineken is brewed using a natural brewing process with no additives. It contains water, barley malt, hops, and the unique Heineken A-yeast for fermentation in the brewing process."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Can I visit a Heineken brewery?",
+
+"answer": "Yes. The Heineken Experience is located in the original Heineken brewery in Amsterdam; one of the most impressive industrial heritage sites in the Netherlands. The Heineken Experience showcases the rich history of Heineken and our craft of beer brewing. Visit the mini brewery, the tasting bar, and the Stable Walk, where you will see some of Heineken's iconic Shire horses. Are you ready to be brewed in the Brew U simulator? Come and find out a visit to the Heineken Experience takes about 90 minutes."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What are the opening times to Heineken Brewery? ",
+
+"answer": "The Heineken Experience is open 365 days a year! Our opening times are from Monday – Thursday from 10.30am until 7.30pm ; and from Friday – Sunday from 10.30am until 9pm. Please note that the last admission is two hours before the closing times. Visitors under the age of 18 must be accompanied by an adult."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How do I buy tickets to the Hieneken Brewery?",
+
+"answer": "Tickets cost €18 and the ticket desk is open until 5.30pm. Buy your tickets online with €2 discount."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How do I get to heineken factory? ",
+
+"answer": "The Heineken Experience is located at: Stadhouderskade 78, 1072 AE Amsterdam. Trams 7, 10 and 24 stop just around the corner."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How do I apply for group rates?",
+
+"answer": "Reservations for groups of more than 20 people can be made 48 hours in advance, by emailing sales.experience@heineken.com. Please make sure you include the contact details of a member of your group, the date and time of your expected visit, and the number of people attending."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Is there wheelchair access?",
+
+"answer": "We’ve aimed to make the entire brewery accessible for any visitor in a wheelchair. The only area without wheelchair access is the Stable Walk and we will guide you around this area via the elevator. We can also provide wheelchairs free of charge. When you arrive, please contact our staff at the Information Desk. They will be glad to assist you."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Can I buy souvenirs?",
+
+"answer": "The Heineken Experience shop, located at the end of the tour, offers a wide range of Heineken clothing, Heineken beer products, posters and other exclusive Heineken merchandise. The shop is also open to the general public so you can pick up a personal Heineken souvenir, even if you’re not planning a trip to the Heineken Experience. The shop is open daily from 11am until 7.30pm."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "Where can I find information to include in my project or presentation?",
+
+"answer": "We’ve put together a special information package that you can request through our corporate website www.heinekeninternational.com"
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "How can I apply for a job at Heineken? ",
+
+"answer": "You can find out more about working for Heineken by visiting our Careers website which will give you a flavour of the company. The site does not hold vacancies but the connections to our Operating Companies provide access to local opportunities. You can also access our International Graduate Programme website through the careers site."
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "When was Heineken founded? ",
+
+"answer": "Heineken's proud heritage includes generations of family involvement and celebrated beers. Gerard Adriaan Heineken purchased the De Hooiberg brewery and founded Heineken in 1863. He made the business an immediate success by adhering to the highest quality standards, treating his employees well, and actually offering a money-back guarantee to his customers. Heineken's success was great with demand spanning across Europe and year after year of growth backed by additional breweries. To share in the secrets behind our beer, explore Heineken Story"
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+},
+
+{
+"type": "faq",
+"faq": {
+"question": "What does the red star on the label mean?",
+
+"answer": "The red star is an original icon of the brand, used since the very beginning. Its exact origins are unknown but there are a few possible explanations. For example, some people think it was a symbol of European brewers in the Middle Ages, who believed it to have mystical powers to protect their brew. Another explanation is that four points of the star symbolise the elements earth, fire, water and wind and that the fifth point is the unknown, representing an element that brewers in the Middle Ages couldn’t control. A third explanation is that the position of a star on the front door of the brewery indicated the stage of the brewing process. During the Cold War, the original design was altered to avoid association with communism (it was replaced by a white star with a red outline). After the end of the Cold War, the original full red star was restored. For us, the red star's principle association is a festive, warm and cheerful mood.   "
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+}
+
+
+
+{
+"type": "faq",
+"faq": {
+"question": "What is the meaning of life",
+
+"answer": "The meaning of life is (redacted)  "
+},
+"externalUrl": "http://test.co/info/{{$guid}}"
+}
