@@ -7,6 +7,7 @@ using RestSharp.Deserializers;
 using QuickType;
 using Newtonsoft.Json;
 using RequestMessage;
+using TokenType;
 
 public class InitialRestSharpSetup :MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class InitialRestSharpSetup :MonoBehaviour
         var resultAnswer= SearchKeyWord(messageRequestSerialized);
         return resultAnswer;
     }
-    private void GettingKeyToken()
+    public void GettingKeyToken()
     {
         var client = new RestClient("https://api.genesysappliedresearch.com/v2/knowledge/generatetoken");
         var request = new RestRequest(Method.POST);
@@ -35,6 +36,8 @@ public class InitialRestSharpSetup :MonoBehaviour
         request.AddHeader("organizationid", "8bb0491c-69e0-4683-be11-717f899ac647");
         IRestResponse response = client.Execute(request);
         Debug.Log(response.Content);
+        TokenMessage tokenMessage = JsonConvert.DeserializeObject<TokenMessage>(response.Content, QuickType.Converter.Settings);
+        _token = tokenMessage.Token;
     }
 
     private string SetupRequestMessage(string messageRequest)
