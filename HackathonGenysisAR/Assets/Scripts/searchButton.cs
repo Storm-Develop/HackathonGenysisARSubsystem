@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,7 @@ public class SearchButton : MonoBehaviour
     public InputField SearchTextInputFeld;
    // public Text searchTxt;
     public InitialRestSharpSetup RestSharpManager;
-    public Text ButtonTestDisplay;
+    public TextMeshProUGUI ButtonTestDisplay;
     public void SearchText()
     {
         var messageToUser = "Error Occured";
