@@ -9,16 +9,16 @@ using UnityEngine.iOS;
 using System.Collections;
 #endif
 
-public class HelloWorld : MonoBehaviour
+public class SpeechRecognitionAzure : MonoBehaviour
 {
     // Hook up the two properties below with a Text and Button object in your UI.
     public Text outputText;
     public Button startRecoButton;
-
+    public SearchButton SearchManagerController;
     private object threadLocker = new object();
     private bool waitingForReco;
     private string message;
-
+    private string OldText;
     private bool micPermissionGranted = false;
 
 #if PLATFORM_ANDROID || PLATFORM_IOS
@@ -77,6 +77,7 @@ public class HelloWorld : MonoBehaviour
     {
         if (outputText == null)
         {
+            OldText = outputText.text;
             UnityEngine.Debug.LogError("outputText property is null! Assign a UI Text element to it.");
         }
         else if (startRecoButton == null)
@@ -130,9 +131,12 @@ public class HelloWorld : MonoBehaviour
             {
                 startRecoButton.interactable = !waitingForReco && micPermissionGranted;
             }
-            if (outputText != null)
+            if (outputText != null && !message.Equals(OldText))
             {
+                SearchManagerController.SearchAudioText(message.ToString()); //Search the answer
                 outputText.text = message;
+                OldText = outputText.text;
+                ///TODO Stop Gif Busy Load
             }
         }
     }

@@ -18,7 +18,12 @@ public class SearchButton : MonoBehaviour
         Debug.Log(messageToUser);
         AnswerShared.SharedAnsw = ButtonTestDisplay.text = messageToUser;
     }
-
+    public void SearchAudioText(string questionAsk)
+    {
+        var messageToUser = SearchQuestion(questionAsk);
+        Debug.Log(messageToUser);
+        AnswerShared.SharedAnsw = ButtonTestDisplay.text = messageToUser;
+    }
     private string SearchQuestion(string questionAsk)
     {
         var messageToUser = DefaultErrorAnswer;
