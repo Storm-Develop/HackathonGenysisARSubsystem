@@ -14,19 +14,12 @@ public class ShowFAQ : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FAQ1.interactable = false;
-        FAQ2.interactable = false;
-        FAQ3.interactable = false;
-        FAQ4.interactable = false;
-        FAQ5.interactable = false;
+        FAQ1.interactable = true;
+        FAQ2.interactable = true;
+        FAQ3.interactable = true;
+        FAQ4.interactable = true;
+        FAQ5.interactable = true;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void test()
     {
         Debug.Log("works");

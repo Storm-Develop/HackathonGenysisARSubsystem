@@ -10,7 +10,7 @@ using RequestMessage;
 
 public class InitialRestSharpSetup :MonoBehaviour
 {
-    private string _token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdJZCI6IjhiYjA0OTFjLTY5ZTAtNDY4My1iZTExLTcxN2Y4OTlhYzY0NyIsImV4cCI6MTU3MTUzODU1OCwiaWF0IjoxNTcxNTM0OTU4fQ.81jrxosFVdhix2wmVDe9A3BhaSWWhaB8QTFHBavzzf8";
+    private string _token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdJZCI6IjhiYjA0OTFjLTY5ZTAtNDY4My1iZTExLTcxN2Y4OTlhYzY0NyIsImV4cCI6MTU3MTU0ODM3OCwiaWF0IjoxNTcxNTQ0Nzc4fQ.HjhsbqyhWqAtpdkszXVaTaTMf8HuOr1giaFRVzCRSS0";
     private string _secretkey = "1438b2d3-e652-41ee-9010-564e16ae645c";
     private string _organizationid = "8bb0491c-69e0-4683-be11-717f899ac647";
 
@@ -19,10 +19,11 @@ public class InitialRestSharpSetup :MonoBehaviour
         ////TODO: NEED to get updated token.
         /////TODO: CREATE button to update the documents. Data base.
     }
-    public void SearchFAQAnswer(string question)
+    public KnowledgeBaseMessage SearchFAQAnswer(string question)
     {
         var messageRequestSerialized = SetupRequestMessage(question);
-        SearchKeyWord(messageRequestSerialized);
+        var resultAnswer= SearchKeyWord(messageRequestSerialized);
+        return resultAnswer;
     }
     private void GettingKeyToken()
     {
@@ -52,7 +53,7 @@ public class InitialRestSharpSetup :MonoBehaviour
 
       KnowledgeBaseMessage SearchKeyWord(string messageRequestSerialized)
     {
-        var client = new RestClient("https://api.genesysappliedresearch.com/v2/knowledge/knowledgebases/ee587552-cbfe-4ed1-8e4d-57ef93f567a1/search");
+        var client = new RestClient("https://api.genesysappliedresearch.com/v2/knowledge/knowledgebases/861453b3-837f-4831-973d-1b628f2da750/search");
         var request = new RestRequest(Method.POST);
         request.AddHeader("cache-control", "no-cache");
         request.AddHeader("Accept", "*/*");
@@ -65,7 +66,6 @@ public class InitialRestSharpSetup :MonoBehaviour
 
         if (response.StatusCode == HttpStatusCode.OK)
         {
-
             var rootObject= JsonConvert.DeserializeObject<KnowledgeBaseMessage>(response.Content, QuickType.Converter.Settings);
             return rootObject;
         }
