@@ -6,7 +6,7 @@
 //
 //    var welcome = Welcome.FromJson(jsonString);
 
-namespace ReqeuestMessageRestAPI
+namespace RequestMessage
 {
     using System;
     using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace ReqeuestMessageRestAPI
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
-    public partial class ReqeuestMessageRestAPI
+    public partial class RequestMessageRestAPI
     {
         [JsonProperty("query")]
         public string Query { get; set; }
@@ -39,14 +39,14 @@ namespace ReqeuestMessageRestAPI
         public string DocumentType { get; set; }
     }
 
-    public partial class ReqeuestMessageRestAPI
+    public partial class RequestMessageRestAPI
     {
-        public static ReqeuestMessageRestAPI FromJson(string json) => JsonConvert.DeserializeObject<ReqeuestMessageRestAPI>(json, QuickType.Converter.Settings);
+        public static RequestMessageRestAPI FromJson(string json) => JsonConvert.DeserializeObject<RequestMessageRestAPI>(json, QuickType.Converter.Settings);
     }
 
-    public static class Serialize
+    public static class RequestMessageRestAPISerialize
     {
-        public static string ToJson(this ReqeuestMessageRestAPI self) => JsonConvert.SerializeObject(self, QuickType.Converter.Settings);
+        public static string ToJson(this RequestMessageRestAPI self) => JsonConvert.SerializeObject(self, QuickType.Converter.Settings);
     }
 
     internal static class Converter
