@@ -10,15 +10,20 @@ using RequestMessage;
 
 public class InitialRestSharpSetup :MonoBehaviour
 {
-    private JsonDeserializer _deserialJSON;
-    // Start is called before the first frame update
+    private string _token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdJZCI6IjhiYjA0OTFjLTY5ZTAtNDY4My1iZTExLTcxN2Y4OTlhYzY0NyIsImV4cCI6MTU3MTUzODU1OCwiaWF0IjoxNTcxNTM0OTU4fQ.81jrxosFVdhix2wmVDe9A3BhaSWWhaB8QTFHBavzzf8";
+    private string _secretkey = "1438b2d3-e652-41ee-9010-564e16ae645c";
+    private string _organizationid = "8bb0491c-69e0-4683-be11-717f899ac647";
+
     void Start()
     {
-        _deserialJSON = new JsonDeserializer();
-        var messageRequestSerialized = SetupRequestMessage("What is BeerTender?");
+        ////TODO: NEED to get updated token.
+        /////TODO: CREATE button to update the documents. Data base.
+    }
+    public void SearchFAQAnswer(string question)
+    {
+        var messageRequestSerialized = SetupRequestMessage(question);
         SearchKeyWord(messageRequestSerialized);
     }
-
     private void GettingKeyToken()
     {
         var client = new RestClient("https://api.genesysappliedresearch.com/v2/knowledge/generatetoken");
@@ -50,11 +55,10 @@ public class InitialRestSharpSetup :MonoBehaviour
         var client = new RestClient("https://api.genesysappliedresearch.com/v2/knowledge/knowledgebases/ee587552-cbfe-4ed1-8e4d-57ef93f567a1/search");
         var request = new RestRequest(Method.POST);
         request.AddHeader("cache-control", "no-cache");
-        //request.AddHeader("Postman-Token", "72ae5c06-ab5a-408e-941d-1ffe55e0fe27,52c09958-c8a9-4d45-8acf-cf1ac6efcfe7");
         request.AddHeader("Accept", "*/*");
-        request.AddHeader("token", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdJZCI6IjhiYjA0OTFjLTY5ZTAtNDY4My1iZTExLTcxN2Y4OTlhYzY0NyIsImV4cCI6MTU3MTUzODU1OCwiaWF0IjoxNTcxNTM0OTU4fQ.81jrxosFVdhix2wmVDe9A3BhaSWWhaB8QTFHBavzzf8");
-        request.AddHeader("secretkey", "1438b2d3-e652-41ee-9010-564e16ae645c");
-        request.AddHeader("organizationid", "8bb0491c-69e0-4683-be11-717f899ac647");
+        request.AddHeader("token", _token);
+        request.AddHeader("secretkey", _secretkey);
+        request.AddHeader("organizationid", _organizationid);
         request.AddParameter("application/json", messageRequestSerialized, ParameterType.RequestBody);
         IRestResponse response = client.Execute(request);
         Debug.Log(response.Content);
