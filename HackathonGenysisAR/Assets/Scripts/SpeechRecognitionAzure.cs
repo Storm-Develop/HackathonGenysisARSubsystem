@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Microsoft.CognitiveServices.Speech;
+using TMPro;
 #if PLATFORM_ANDROID
 using UnityEngine.Android;
 #endif
@@ -12,7 +13,7 @@ using System.Collections;
 public class SpeechRecognitionAzure : MonoBehaviour
 {
     // Hook up the two properties below with a Text and Button object in your UI.
-    public Text outputText;
+    public TextMeshProUGUI outputText;
     public Button startRecoButton;
     public SearchButton SearchManagerController;
     private object threadLocker = new object();

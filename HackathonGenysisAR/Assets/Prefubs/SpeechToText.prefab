@@ -211,6 +211,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outputText: {fileID: 0}
   startRecoButton: {fileID: 3009923030152973897}
+  SearchManagerController: {fileID: 0}
+  BusyLoad: {fileID: 0}
 --- !u!1 &3009923030152973903
 GameObject:
   m_ObjectHideFlags: 0
